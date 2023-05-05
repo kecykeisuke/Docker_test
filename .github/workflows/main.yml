@@ -1,18 +1,8 @@
-name: CI to Docker Hub
+name: CI to Docker Hub 
+
 on:
   push:
     branches: [ main ]
-    
-jobs:
-
-  build:
-    runs-on: ubuntu-latest
-  
-
-on:
-  push:
-    tags:
-      - "v*.*.*"
 
 jobs:
 
